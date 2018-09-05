@@ -126,7 +126,7 @@ class FloatingActionButtonZoom extends React.Component {
             }}
             unmountOnExit
           >
-            <Button variant="fab" className={fab.className} color={fab.color} onClick={this.getDataLocal}>
+            <Button variant="fab" className={fab.className} color={fab.color} onClick={this.getData}>
               {fab.icon}
             </Button>
           </Zoom>
